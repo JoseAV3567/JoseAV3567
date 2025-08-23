@@ -53,5 +53,26 @@ El contenido de los repositorios que puedes encontrar ha sido desarrollado con o
 ![MRTK](https://img.shields.io/badge/MRTK-512BD4?style=for-the-badge&color=%231C1E20)
 
 
-## 📈 Trabajando en...
-[![Build and Commit](https://github.com/JoseAV3567/github-profile-3d-contrib/actions/workflows/build.yml/badge.svg)](https://github.com/JoseAV3567/github-profile-3d-contrib/actions/workflows/build.yml)
+## 📈 Trabajando en...name: Build and Commit
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install
+      - run: npm run build
+      - run: |
+          git config user.name github-actions
+          git config user.email github-actions[bot]@users.noreply.github.com
+          git add dist/
+          if git commit -m "Update build" ; then
+            git push origin HEAD:main
+          fi
