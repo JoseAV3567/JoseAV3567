@@ -10,16 +10,11 @@ El contenido de los repositorios que puedes encontrar ha sido desarrollado con o
 ## Contacto
 
 [![Email](https://img.shields.io/badge/Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:igijoninf@gmail.com)
-[![Youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCDC8YnQsB0eRoM-u_qq200w)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](twitter.com/InmaculadaGijn1)
-[![Website](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://igijon.github.io/)
-
 
 ## Despliegues
 
-[![WebDepartamento](https://img.shields.io/badge/Web_Departamento-green?style=for-the-badge&logo=About.me&logoColor=white)](https://informaticacifpvg.netlify.app/)
+
 [![GithubDepartamento](https://img.shields.io/badge/Repo-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CIFP-Virgen-de-Gracia/inf_com_dep_CIFP_VG) 
-[![NetlifyDepartamento](https://api.netlify.com/api/v1/badges/4c7f9ef1-f6f7-4066-a6d8-84d447459e11/deploy-status)](https://app.netlify.com/sites/informaticacifpvg/deploys)
 
 ## ⚡ Tecnologías más usadas
 
